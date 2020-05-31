@@ -1,0 +1,50 @@
+﻿.menuContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "appetizerTitle mainTitle dessertTitle" "appetizer main dessert";
+    text-align: center;
+    grid-gap: 1em;
+}
+h3 {
+    background-color: #247b7b;
+}
+.itemDiv {
+    background-color: #247b7b;
+    padding: 2%;
+    border-bottom-left-radius: 15%;
+    color: white;
+    margin-bottom: 2%;
+    text-shadow: 2px 2px black;
+}
+.item {
+    font-size: 22px;
+    margin-bottom: 0;
+    color: black;
+    text-shadow: none;
+    font-weight: bold;
+}
+.category{
+    margin-top: 2px;
+    font-size: 13px;
+}
+.appetizerTitle{
+    grid-area: appetizerTitle;
+    grid-gap: 2em;
+}
+.mainTitle {
+    grid-area: mainTitle;
+}
+.dessertTitle {
+    grid-area: dessertTitle;
+}
+.appetizerContainer{
+    grid-area: appetizer;
+}
+
+.mainContainer{
+    grid-area: main;
+}
+
+.dessertContainer{
+    grid-area: dessert;
+}
